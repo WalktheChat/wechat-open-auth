@@ -1,32 +1,4 @@
 {
-  "_args": [
-    [
-      "weixin-open-oauth@1.0.0",
-      "/mnt/c/Users/camille/Documents/walkthechat/cms-api-v3"
-    ]
-  ],
-  "_from": "weixin-open-oauth@1.0.0",
-  "_id": "weixin-open-oauth@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-ONmjOvQVKDvDrFYPYO5qX66oj+giif7jddzUzorx4z/J/8JF5MeOTVUKRRjXr0ijpJerWW7mRAIFqIFglqmyvg==",
-  "_location": "/weixin-open-oauth",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "weixin-open-oauth@1.0.0",
-    "name": "weixin-open-oauth",
-    "escapedName": "weixin-open-oauth",
-    "rawSpec": "1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "1.0.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/weixin-open-oauth/-/weixin-open-oauth-1.0.0.tgz",
-  "_spec": "1.0.0",
-  "_where": "/mnt/c/Users/camille/Documents/walkthechat/cms-api-v3",
   "author": "",
   "dependencies": {
     "querystring": "^0.2.0",
@@ -34,14 +6,15 @@
     "request-promise-native": "^1.0.5",
     "xml2js": "^0.4.19"
   },
-  "description": "针对微信公众号第三方开发者，封装了授权流程中的主要api, 详情见微信开放平台文档[授权流程说明](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1453779503&token=e7e06f30f4625f3274a06dd29b07d76f8aa00da7&lang=zh_CN)。",
-  "gitHead": "2390674ebc57bdda355df81e2d595d9f60f2d18a",
+  "description": "",
   "keywords": [],
   "license": "ISC",
-  "main": "index.js",
-  "name": "weixin-open-oauth",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/WalktheChat/wechat-open-auth.git"
   },
+  "main": "index.js",
+  "name": "@walkthechat/wechat-open-oauth",
+  "scripts": {  },
   "version": "1.0.0"
 }
