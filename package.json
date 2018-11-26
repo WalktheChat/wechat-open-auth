@@ -6,15 +6,22 @@
     "request-promise-native": "^1.0.5",
     "xml2js": "^0.4.19"
   },
-  "description": "",
+  "description": "针对微信公众号第三方开发者，封装了授权流程中的主要api, 详情见微信开放平台文档[授权流程说明](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1453779503&token=e7e06f30f4625f3274a06dd29b07d76f8aa00da7&lang=zh_CN)。",
   "keywords": [],
   "license": "ISC",
-  "repository":{
+  "repository": {
     "type": "git",
-    "url": "https://github.com/WalktheChat/wechat-open-auth.git"
+    "url": "git+https://github.com/WalktheChat/wechat-open-auth.git"
   },
   "main": "index.js",
   "name": "@walkthechat/wechat-open-oauth",
-  "scripts": {  },
-  "version": "1.0.0"
+  "scripts": {},
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/WalktheChat/wechat-open-auth/issues"
+  },
+  "homepage": "https://github.com/WalktheChat/wechat-open-auth#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
