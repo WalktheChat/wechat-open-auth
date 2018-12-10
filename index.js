@@ -168,7 +168,7 @@ class Auth {
 
     /*
    * 获取预授权码pre_auth_code
-   * 
+   *
    * Result:
    * ```
    * {"pre_auth_code": "PRE_AUTH_CODE", "expires_in": 600}
