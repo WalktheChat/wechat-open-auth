@@ -55,8 +55,12 @@ class Auth {
             });
         });
         console.log(JSON.stringify(encryptJson));
-        await this.saveVerifyTicket(encryptJson.xml.ComponentVerifyTicket[0]);
-        return encryptJson.xml.ComponentVerifyTicket[0];
+        if (encryptJson.xml && encryptJson.xml.ComponentVerifyTicket) {
+            await this.saveVerifyTicket(encryptJson.xml.ComponentVerifyTicket[0]);
+            return encryptJson.xml.ComponentVerifyTicket[0];
+        } else {
+            return encryptJson.xml;
+        }
     }
 
     /**
